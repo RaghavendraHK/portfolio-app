@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.hero {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.skill-grid,
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.skill,
+.project-card {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-btn.github {
+    background: #333;
+}
+
+.social-btn.github:hover {
+    background: #555;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-btn.linkedin {
+    background: #0077b5;
+}
+
+.social-btn.linkedin:hover {
+    background: #005885;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 119, 181, 0.3);
+}
+
+button {
+    background: #141e30;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
